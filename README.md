@@ -13,4 +13,5 @@ https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats?select=Player+Sea
 #### ARCHIVOS INCLUIDOS
 -  Notebook
 -  HTML (no requerido pero recomendable para una mejor lectura de los datos)
--  PDF 
+-  PDF
+-  nba_players.csv
