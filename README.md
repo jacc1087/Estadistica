@@ -1,6 +1,6 @@
 # 🏀 Estadística para Data Science — Análisis de la NBA
 
-Proyecto final del módulo de Estadística para Data Science. Aplica análisis descriptivo, inferencia estadística, regresión (lineal y logística) y análisis de series temporales sobre un dataset histórico de estadísticas de jugadores de la **NBA** (desde 1947), además de una implementación de regresión lineal **desde cero con NumPy** para demostrar la comprensión matemática detrás de `LinearRegression()`.
+Aplica análisis descriptivo, inferencia estadística, regresión (lineal y logística) y análisis de series temporales sobre un dataset histórico de estadísticas de jugadores de la **NBA** (desde 1947), además de una implementación de regresión lineal **desde cero con NumPy** para demostrar la comprensión matemática detrás de `LinearRegression()`.
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacc1087/Estadistica/blob/main/PracticaEstadistica__Contreras_Ca%C3%B1o_Jose_Angel.ipynb) &nbsp; [![Abrir la demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://estadistica-qjdzinvequiatnzbpnfrrz.streamlit.app/)
 
