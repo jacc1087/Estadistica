@@ -2,10 +2,6 @@
 
 Como aficionado a la NBA desde hace años, me pareció un dataset perfecto para el proyecto final del módulo: contiene datos reales, con suficiente volumen y complejidad para exigir limpieza y criterio estadístico, y sobre un tema que me permite interpretar los resultados con conocimiento de causa (saber, por ejemplo, distinguir un dato curioso de una conclusión estadísticamente sólida).
 
-El objetivo del proyecto no era solo aplicar funciones de Pandas o Scikit-learn, sino demostrar todo el razonamiento estadístico detrás de cada paso: por qué se filtra un dato, qué significa que la media y la mediana difieran, cuándo un R² es realmente bueno o solo parece bueno, y qué implica —o no implica— una correlación. Por eso cada apartado del notebook va acompañado de su interpretación en lenguaje natural, no solo del código y el resultado numérico.
-
-El trabajo está dividido en 4 partes, cada una centrada en una habilidad estadística distinta:
-
 1. **Análisis descriptivo** — Exploración, limpieza y clasificación de variables de un dataset propio (NBA): tipos de variable, estadísticos descriptivos, detección de outliers y visualización de distribuciones.
 2. **Inferencia y modelado** — Correlaciones, relaciones bivariantes, y modelos de regresión lineal y logística sobre el mismo dataset, con interpretación de coeficientes y métricas (R², RMSE, accuracy).
 3. **Regresión lineal "from scratch"** — Implementación manual con NumPy (sin Scikit-learn) para demostrar el fundamento matemático (OLS, MSE, R²), comparada después con el modelo real de Scikit-learn sobre los mismos datos.
