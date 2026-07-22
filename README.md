@@ -1,6 +1,17 @@
 # 🏀 Estadística para Data Science — Análisis de la NBA
 
-Aplica análisis descriptivo, inferencia estadística, regresión (lineal y logística) y análisis de series temporales sobre un dataset histórico de estadísticas de jugadores de la **NBA** (desde 1947), además de una implementación de regresión lineal **desde cero con NumPy** para demostrar la comprensión matemática detrás de `LinearRegression()`.
+Como aficionado a la NBA desde hace años, me pareció un dataset perfecto para el proyecto final del módulo: contiene datos reales, con suficiente volumen y complejidad para exigir limpieza y criterio estadístico, y sobre un tema que me permite interpretar los resultados con conocimiento de causa (saber, por ejemplo, distinguir un dato curioso de una conclusión estadísticamente sólida).
+
+El objetivo del proyecto no era solo aplicar funciones de Pandas o Scikit-learn, sino demostrar todo el razonamiento estadístico detrás de cada paso: por qué se filtra un dato, qué significa que la media y la mediana difieran, cuándo un R² es realmente bueno o solo parece bueno, y qué implica —o no implica— una correlación. Por eso cada apartado del notebook va acompañado de su interpretación en lenguaje natural, no solo del código y el resultado numérico.
+
+El trabajo está dividido en 4 partes, cada una centrada en una habilidad estadística distinta:
+
+1. **Análisis descriptivo** — Exploración, limpieza y clasificación de variables de un dataset propio (NBA): tipos de variable, estadísticos descriptivos, detección de outliers y visualización de distribuciones.
+2. **Inferencia y modelado** — Correlaciones, relaciones bivariantes, y modelos de regresión lineal y logística sobre el mismo dataset, con interpretación de coeficientes y métricas (R², RMSE, accuracy).
+3. **Regresión lineal "from scratch"** — Implementación manual con NumPy (sin Scikit-learn) para demostrar el fundamento matemático (OLS, MSE, R²), comparada después con el modelo real de Scikit-learn sobre los mismos datos.
+4. **Series temporales** — Análisis de tendencia, estacionalidad y suavizado (medias móviles) sobre una serie simulada, con descomposición estacional.
+
+Además del notebook, el proyecto incluye un **dashboard interactivo** (ver [Demo](#-cómo-verlo)) que expone los resultados más relevantes del análisis —sin código a la vista— con filtros propios y un modelo de regresión que se puede probar en vivo eligiendo las variables predictoras.
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacc1087/Estadistica/blob/main/PracticaEstadistica__Contreras_Ca%C3%B1o_Jose_Angel.ipynb) &nbsp; [![Abrir la demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://estadistica-qjdzinvequiatnzbpnfrrz.streamlit.app/)
 
