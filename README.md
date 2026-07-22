@@ -8,7 +8,7 @@
 
 Proyecto final del módulo de Estadística para Data Science. Aplica análisis descriptivo, inferencia estadística, regresión (lineal y logística) y análisis de series temporales sobre un dataset histórico de estadísticas de jugadores de la **NBA** (desde 1947), además de una implementación de regresión lineal **desde cero con NumPy** para demostrar la comprensión matemática detrás de `LinearRegression()`.
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacc1087/Estadistica/blob/main/PracticaEstadistica__Contreras_Ca%C3%B1o_Jose_Angel.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacc1087/Estadistica/blob/main/PracticaEstadistica__Contreras_Ca%C3%B1o_Jose_Angel.ipynb) &nbsp; [![Abrir la demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://TU-URL-DE-STREAMLIT.streamlit.app/)
 
 ---
 
@@ -51,15 +51,19 @@ Del dataset original se utilizó específicamente el archivo `PlayersTotal.csv`,
 | Archivo | Descripción |
 |---|---|
 | `PracticaEstadistica__Contreras_Caño_Jose_Angel.ipynb` | Notebook principal con todo el análisis y el código |
-| `PracticaEstadistica__Contreras_Caño_Jose_Angel.html` | Exportación en HTML — **recomendada** para visualizar correctamente todas las gráficas |
+| `PracticaEstadistica__Contreras_Caño_Jose_Angel.html` | Exportación en HTML — recomendada si solo quieres leer el análisis |
 | `PracticaEstadistica__Contreras_Caño_Jose_Angel.pdf` | Exportación en PDF (algunas gráficas pueden no verse con total claridad) |
 | `nba_players.csv` | Dataset utilizado (ver [Dataset](#-dataset)) |
+| `app.py` | Dashboard interactivo desplegado en Streamlit (ver [Demo](#-cómo-verlo)) |
+| `requirements.txt` | Dependencias para ejecutar el dashboard |
 
 ## 👀 Cómo verlo
 
-**Opción rápida:** pulsa el botón "Abrir en Colab" de arriba — el notebook descarga el CSV automáticamente si no lo encuentra, así que funciona sin configuración adicional.
+Hay tres formas de acceder al proyecto, de más a menos inmediata:
 
-> ⚠️ La exportación del notebook a PDF no conserva perfectamente el formato de todas las gráficas. Si prefieres solo **leer** el análisis sin ejecutarlo, se recomienda abrir el archivo `.html` directamente en el navegador. El PDF se incluye como alternativa rápida.
+1. **🚀 Demo interactiva (recomendada)** — pulsa el botón "Abrir la demo" de arriba. Es un dashboard en Streamlit con filtros (posición, partidos jugados), gráficas interactivas, un modelo de regresión que puedes probar en vivo eligiendo tú las variables, y un buscador de jugadores. No requiere instalar nada ni ver código.
+2. **📓 Notebook en Colab** — pulsa "Abrir en Colab" para ejecutar el análisis completo (las 4 partes) paso a paso, con el código a la vista. El CSV se descarga automáticamente, no requiere configuración.
+3. **📄 Lectura estática** — si solo quieres leer el análisis sin ejecutar nada, abre el archivo `.html` del repo directamente en el navegador. El PDF se incluye como alternativa, aunque no conserva perfectamente el formato de todas las gráficas.
 
 Para ejecutarlo en tu propio ordenador en vez de en Colab:
 
@@ -95,9 +99,10 @@ Sobre una serie simulada con tendencia, estacionalidad y ruido: resampleo mensua
 
 - **Lenguaje:** Python (Jupyter Notebook)
 - **Análisis de datos:** Pandas, NumPy
-- **Visualización:** Matplotlib, Seaborn
+- **Visualización:** Matplotlib, Seaborn (notebook) · Plotly (demo interactiva)
 - **Machine Learning:** Scikit-learn (regresión lineal y logística)
 - **Series temporales:** Statsmodels
+- **Demo:** Streamlit
 
 ## 👤 Autor
 
