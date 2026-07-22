@@ -51,19 +51,16 @@ Del dataset original se utilizó específicamente el archivo `PlayersTotal.csv`,
 | Archivo | Descripción |
 |---|---|
 | `PracticaEstadistica__Contreras_Caño_Jose_Angel.ipynb` | Notebook principal con todo el análisis y el código |
-| `PracticaEstadistica__Contreras_Caño_Jose_Angel.html` | Exportación en HTML — recomendada si solo quieres leer el análisis |
-| `PracticaEstadistica__Contreras_Caño_Jose_Angel.pdf` | Exportación en PDF (algunas gráficas pueden no verse con total claridad) |
 | `nba_players.csv` | Dataset utilizado (ver [Dataset](#-dataset)) |
-| `app.py` | Dashboard interactivo desplegado en Streamlit (ver [Demo](#-cómo-verlo)) |
+| `app_estadistica.py` | Dashboard interactivo desplegado en Streamlit (ver [Demo](#-cómo-verlo)) |
 | `requirements.txt` | Dependencias para ejecutar el dashboard |
 
 ## 👀 Cómo verlo
 
-Hay tres formas de acceder al proyecto, de más a menos inmediata:
+Hay dos formas de acceder al proyecto:
 
 1. **🚀 Demo interactiva (recomendada)** — pulsa el botón "Abrir la demo" de arriba. Es un dashboard en Streamlit con filtros (posición, partidos jugados), gráficas interactivas, un modelo de regresión que puedes probar en vivo eligiendo tú las variables, y un buscador de jugadores. No requiere instalar nada ni ver código.
 2. **📓 Notebook en Colab** — pulsa "Abrir en Colab" para ejecutar el análisis completo (las 4 partes) paso a paso, con el código a la vista. El CSV se descarga automáticamente, no requiere configuración.
-3. **📄 Lectura estática** — si solo quieres leer el análisis sin ejecutar nada, abre el archivo `.html` del repo directamente en el navegador. El PDF se incluye como alternativa, aunque no conserva perfectamente el formato de todas las gráficas.
 
 Para ejecutarlo en tu propio ordenador en vez de en Colab:
 
