@@ -1,11 +1,5 @@
 # 🏀 Estadística para Data Science — Análisis de la NBA
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E)
-![Status](https://img.shields.io/badge/Estado-Finalizado-brightgreen)
-
 Proyecto final del módulo de Estadística para Data Science. Aplica análisis descriptivo, inferencia estadística, regresión (lineal y logística) y análisis de series temporales sobre un dataset histórico de estadísticas de jugadores de la **NBA** (desde 1947), además de una implementación de regresión lineal **desde cero con NumPy** para demostrar la comprensión matemática detrás de `LinearRegression()`.
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jacc1087/Estadistica/blob/main/PracticaEstadistica__Contreras_Ca%C3%B1o_Jose_Angel.ipynb) &nbsp; [![Abrir la demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://estadistica-qjdzinvequiatnzbpnfrrz.streamlit.app/)
@@ -100,8 +94,3 @@ Sobre una serie simulada con tendencia, estacionalidad y ruido: resampleo mensua
 - **Machine Learning:** Scikit-learn (regresión lineal y logística)
 - **Series temporales:** Statsmodels
 - **Demo:** Streamlit
-
-## 👤 Autor
-
-**José Ángel Contreras Caño**
-[GitHub](https://github.com/jacc1087) · [LinkedIn](https://linkedin.com/in/jose-angel-contreras-caño-7867a193)
